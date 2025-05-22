@@ -36,3 +36,24 @@ aside {
 	float: right;
 	width: 190px;
 }
+
+@media (max-width: 800px) {
+  #contenedor {
+    width: 100%;
+  }
+
+  nav, section, aside {
+    float: none;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  section {
+    margin-left: auto; /* este se puede sacar si querés */
+  }
+}
+
+#contenedor h1 {
+  text-align: center;
+  padding: 20px 0;
+}
